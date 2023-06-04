@@ -1,0 +1,53 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+
+    &__item {
+        width: 100%;
+    }
+
+    &__image {
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+    }
+}
+
+.photo-card {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    color: #FFCBEC
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #9E678A;
+    border-radius: 0 0 10px 10px;
+}
+
+.load-container {
+    display: flex;
+    justify-content: center;
+}
+
+.load-more {
+    background-color: #5F2449;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    outline: 0;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 13px 9px 24px -9px rgba(66, 68, 90, 1);
+    margin-bottom: 50px;
+}
